@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1024px){
+.mkdf-content .mkdf-content-inner > .mkdf-container > .mkdf-container-inner, .mkdf-content .mkdf-content-inner > .mkdf-full-width > .mkdf-full-width-inner { padding: 20px 0px 0px 0px;}}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+}
+
+@media only screen and (min-width: 681px) and (max-width: 768px){
+}
+
+@media only screen and (max-width: 680px){
+}
