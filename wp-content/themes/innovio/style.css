@@ -13,3 +13,8 @@ License URI: licence/GPL.txt
 CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
 
 */
+
+/* ---- static-site fixes (added during the WordPress -> GitHub Pages migration) ---- */
+/* The original theme options left the phone-menu icon blank, so there was nothing to tap on phones.
+   The page now draws a Font Awesome hamburger there; give it a comfortable touch target. */
+.mkdf-mobile-header .mkdf-mobile-menu-opener.mkdf-mobile-menu-opener-icon-pack .mkdf-mobile-menu-icon{font-size:24px;padding:12px 8px}
